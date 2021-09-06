@@ -1,0 +1,384 @@
+@media screen and (max-width: 1200px) {
+  .gift {
+    &__description-wrapper {
+      padding: 134px 50px 0px 70px;
+    }
+  }
+  .work {
+    &__text {
+      padding: 134px 50px 0px 70px;
+    }
+  }
+  .occasions {
+    &__item-header {
+      width: unset;
+    }
+  }
+  .occasions__slider {
+    & .slick-slide {
+      margin: 0 10px;
+    }
+    & .slick-list {
+      margin: 0 -10px;
+    }
+  }
+  .blog {
+    &__description {
+      padding: 60px 20px 0px 58px;
+    }
+    &__offer-item {
+      padding: 38px;
+      max-width: 450px;
+    }
+  }
+  .footer {
+    &__menu::after {
+      width: 130%;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  h3 {
+    font-size: 30px;
+    line-height: 24px;
+  }
+  .gift {
+    height: 500px;
+    &__description-wrapper {
+      padding: 95px 50px 0px 70px;
+    }
+    &__title {
+      font-size: 40px;
+      line-height: 45px;
+    }
+    &__subtitle {
+      font-size: 18px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+    &__button {
+      padding: 16px 28px;
+    }
+  }
+  .work {
+    height: 430px;
+    &__text {
+      padding: 45px 50px 0px 50px;
+    }
+    &__description {
+      font-size: 18px;
+      line-height: 25px;
+      margin-bottom: 25px;
+    }
+    &__button {
+      padding: 14px 38px;
+    }
+  }
+  .occasions {
+    padding: 55px 0 75px;
+    &__subtitle {
+      margin-top: 15px;
+      margin-bottom: 40px;
+    }
+    &__item-header {
+      height: 220px;
+    }
+  }
+  .ready {
+    padding: 65px 0 60px;
+    &__wrapper {
+      padding: 0 30px;
+    }
+    &__btn-gift {
+      padding: 12px 20px;
+      font-size: 16px;
+    }
+    &__btn-work {
+      padding: 11px 18px;
+      margin-left: 10px;
+      font-size: 16px;
+    }
+  }
+  .blog {
+    padding: 55px 0 60px;
+    &__subtitle {
+      margin-top: 15px;
+    }
+    &__banner {
+      height: 300px;
+      margin-top: 40px;
+    }
+    &__description-title {
+      font-size: 42px;
+      line-height: 45px;
+    }
+    &__description {
+      padding: 40px 20px 0px 45px;
+    }
+    &__offer-item {
+      padding: 30px;
+    }
+    &__offer-title {
+      font-size: 20px;
+      line-height: 28px;
+    }
+    &__offer-subtitle {
+      font-size: 16px;
+      line-height: 22px;
+      margin: 13px 0px 30px;
+    }
+  }
+  .footer {
+    padding: 60px 0px 15px;
+    &__menu {
+      max-width: 514px;
+    }
+    &__logo-link {
+      width: 150px;
+    }
+    &__social {
+      margin: 70px auto 35px;
+    }
+    &__menu::after {
+      bottom: -30px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    position: sticky;
+    top: 0;
+    padding: 15px 0 15px;
+    z-index: 2;
+    &__nav,
+    &__btn {
+      display: none;
+    }
+  }
+  .ready {
+    padding: 40px 0;
+    &__wrapper {
+      flex-direction: column;
+    }
+    &__title {
+      margin-bottom: 20px;
+    }
+  }
+
+  .gift {
+    &__description-wrapper {
+      padding: 72px 35px 0px 35px;
+    }
+    &__button {
+      padding: 13px 22px;
+      font-size: 16px;
+    }
+  }
+
+  .blog {
+    &__description-title {
+      font-size: 36px;
+      line-height: 38px;
+      margin: 26px 0 40px;
+    }
+    &__offer-item {
+      padding: 25px;
+    }
+    &__offer-title {
+      font-size: 17px;
+    }
+    &__offer-subtitle {
+      font-size: 15px;
+    }
+  }
+
+  .work {
+    &__text {
+      padding: 35px 25px 0px 25px;
+    }
+    &__button {
+      padding: 12px 31px;
+      font-size: 16px;
+    }
+  }
+
+  .footer {
+    padding: 40px 0px 5px;
+    &__menu {
+      max-width: 480px;
+      &::after {
+        bottom: -24px;
+        width: 108%;
+      }
+    }
+    &__logo-link {
+      width: 100px;
+    }
+    &__social {
+      margin: 55px auto 25px;
+    }
+  }
+
+  .hamburger {
+    &__wrapper {
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h3 {
+    font-size: 26px;
+    line-height: 17px;
+  }
+
+  .block__title {
+    font-size: 27px;
+    line-height: 20px;
+  }
+  .block__subtitle {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .gift {
+    flex-direction: column;
+    height: inherit;
+    &__description-wrapper {
+      width: 100%;
+      padding: 25px 20px;
+    }
+    &__title {
+      font-size: 28px;
+      line-height: 35px;
+    }
+    &__subtitle {
+      font-size: 16px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    &__img {
+      width: 100%;
+      height: 250px;
+    }
+    &__button {
+      padding: 9px 15px;
+      font-size: 14px;
+    }
+  }
+
+  .work {
+    flex-direction: column-reverse;
+    height: inherit;
+    &__img {
+      width: 100%;
+      height: 250px;
+    }
+    &__text {
+      width: 100%;
+      padding: 35px 25px 25px 25px;
+    }
+    &__description {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 15px;
+    }
+    &__button {
+      padding: 9px 19px;
+      font-size: 15px;
+    }
+  }
+
+  .occasions {
+    padding: 40px 0 40px;
+    &__subtitle {
+      margin-bottom: 25px;
+    }
+  }
+
+  .ready {
+    padding: 30px 0;
+    &__wrapper {
+      padding: 0;
+    }
+    &__btn-gift {
+      padding: 10px 17px;
+      font-size: 14px;
+    }
+    &__btn-work {
+      padding: 9px 16px;
+      font-size: 14px;
+    }
+  }
+
+  .blog {
+    padding: 30px 0;
+    &__banner {
+      margin-top: 20px;
+      flex-direction: column;
+      height: inherit;
+    }
+    &__img {
+      height: 220px;
+      max-width: 576px;
+      width: inherit;
+      & img {
+        width: 100%;
+        object-position: 20%;
+      }
+    }
+    &__description {
+      padding: 20px;
+      &-user {
+        font-size: 14px;
+      }
+      &-title {
+        font-size: 27px;
+        line-height: 32px;
+        margin: 18px 0 28px;
+      }
+      &-link {
+        font-size: 16px;
+      }
+    }
+    &__offer {
+      margin-top: 20px;
+      flex-direction: column;
+      &-item {
+        padding: 20px 15px;
+      }
+      &-subtitle {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .footer {
+    padding-top: 25px;
+    &__menu-item a {
+      font-size: 13px;
+      font-weight: 300;
+    }
+    &__logo-link {
+      width: 60px;
+    }
+    &__menu::after {
+      width: 50%;
+      bottom: -10px;
+    }
+    &__social {
+      max-width: 250px;
+      margin: 25px auto 15px;
+      & img {
+        width: 30px;
+      }
+    }
+    &__privacy {
+      font-size: 13px;
+      &-link {
+        font-size: 13px;
+      }
+    }
+  }
+}

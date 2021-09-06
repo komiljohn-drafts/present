@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bla Bla Bla ...</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="scss/media.css">
+</head>
+
+<body>
+
+    <!--  <= ## Header ## =>  -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__row">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item"><a href="#header" class="header__nav-link">Home</a></li>
+                        <li class="header__nav-item"><a href="#banner" class="header__nav-link">About Us</a></li>
+                        <li class="header__nav-item"><a href="#occasions" class="header__nav-link">Services</a></li>
+                        <li class="header__nav-item"><a href="#blog" class="header__nav-link">Blogs</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="header__btn">Gift finder</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="hamburger__wrapper">
+        <nav class="hamburger-navigation" role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" id="input-toggle" />
+                <div class="hamburger__control">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul id="menu">
+                    <a href="#header">
+                        <li>Home</li>
+                    </a>
+                    <a href="#banner">
+                        <li>About Us</li>
+                    </a>
+                    <a href="#occasions">
+                        <li>Services</li>
+                    </a>
+                    <a href="#blog">
+                        <li>Blogs</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!--  <= ## Banner ## =>  -->
+    <div class="banner" id="banner">
+        <div class="gift">
+            <div class="gift__description-wrapper">
+                <div class="gift__block">
+                    <h1 class="gift__title">Find a gift for your wife or girlfriend</h1>
+                    <p class="gift__subtitle">Struggling to find a gift for your wife or girlfriend? No problem!</p>
+                    <a href="#" class="gift__button">Find gift now</a>
+                </div>
+            </div>
+            <div class="gift__img">
+                <img src="img/gift.jpg" alt="" class="gift__img" />
+            </div>
+        </div>
+        <div class="work">
+            <div class="work__img">
+                <img src="img/work.jpg" alt="" class="work__img">
+            </div>
+            <div class="work__text">
+                <div class="work__block">
+                    <h3 class="work__title">How we work</h3>
+                    <p class="work__description">We’ve actually already asked hundreds of women what they want, and
+                        made a database with the results. All you have to do is take our short survey that only
+                        takes seconds, and our proprietary algorithm will match you with a few perfect gift options.
+                    </p>
+                    <a href="#" class="work__button">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  <= ## Occasions ## =>  -->
+    <section class="occasions" id="occasions">
+        <div class="container">
+            <h3 class="block__title occasions__title">Gifts for all Occasions</h3>
+            <p class="block__subtitle occasions__subtitle">“Try our web app to find the best gifts for all occasions”
+            </p>
+            <div class="occasions__slider">
+                <section class="occasions__item">
+                    <div class="occasions__item-header">
+                        <img src="img/occasions-1.jpg" alt="">
+                    </div>
+                    <div class="occasions__item-footer">
+                        <h5 class="occasions__item-title">Birthday</h5>
+                        <a href="#" class="occasions__item-link">See More <span>›</span></a>
+                    </div>
+                </section>
+                <section class="occasions__item">
+                    <div class="occasions__item-header">
+                        <img src="img/occasions-2.jpg" alt="">
+                    </div>
+                    <div class="occasions__item-footer">
+                        <h5 class="occasions__item-title">Anniversary</h5>
+                        <a href="#" class="occasions__item-link">See More <span>›</span></a>
+                    </div>
+                </section>
+                <section class="occasions__item">
+                    <div class="occasions__item-header">
+                        <img src="img/occasions-3.jpg" alt="">
+                    </div>
+                    <div class="occasions__item-footer">
+                        <h5 class="occasions__item-title">Valentine's Day</h5>
+                        <a href="#" class="occasions__item-link">See More <span>›</span></a>
+                    </div>
+                </section>
+                <section class="occasions__item">
+                    <div class="occasions__item-header">
+                        <img src="img/occasions-4.jpg" alt="">
+                    </div>
+                    <div class="occasions__item-footer">
+                        <h5 class="occasions__item-title">Christmas</h5>
+                        <a href="#" class="occasions__item-link">See More <span>›</span></a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <!--  <= ## Get Started ## =>  -->
+    <section class="ready">
+        <div class="container">
+            <div class="ready__wrapper">
+                <div class="ready__title">
+                    <h3 class="ready__title-up">Ready to get started?</h3>
+                    <h3 class="ready__title-down">Sign up or contact us</h3>
+                </div>
+                <div class="ready__btn">
+                    <a href="#" class="ready__btn-gift">Find gift now</a>
+                    <a href="#" class="ready__btn-work">How it works</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  <= ## Best Blog ## =>  -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <h3 class="block__title blog__title">Our Best Blogs Ever</h3>
+            <p class="block__subtitle blog__subtitle">“Try our blog to find the best tips and tricks to select your
+                gift”
+            </p>
+            <div class="blog__wrapper">
+                <div class="blog__banner">
+                    <div class="blog__img">
+                        <img src="img/blog.jpg" alt="">
+                    </div>
+                    <div class="blog__description">
+                        <div class="blog__description-wrapper">
+                            <span class="blog__description-user">Mr. John Doe</span>
+                            <h2 class="blog__description-title">The best way to wish your wife</h2>
+                            <a href="#" class="blog__description-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__offer">
+                    <div class="blog__offer-item">
+                        <h4 class="blog__offer-title">Database to find the gifts for your girlfriend</h4>
+                        <p class="blog__offer-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore...</p>
+                        <a href="#" class="blog__offer-link">Read More</a>
+                    </div>
+                    <div class="blog__offer-item">
+                        <h4 class="blog__offer-title">How Artificial Intelligence read your mind to find the best gift
+                        </h4>
+                        <p class="blog__offer-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore...</p>
+                        <a href="#" class="blog__offer-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  <= ## Footer ## =>  -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="footer__menu">
+                    <li class="footer__menu-item"><a href="#header">Home</a></li>
+                    <li class="footer__menu-item"><a href="#banner">About</a></li>
+                    <a href="index.html" class="footer__logo-link">
+                        <img src="img/footer-logo.svg" alt="">
+                    </a>
+                    <li class="footer__menu-item"><a href="#occasions">Service</a></li>
+                    <li class="footer__menu-item"><a href="#blog">Blog</a></li>
+                </ul>
+                <div class="footer__social">
+                    <a href="https://facebook.com" class="footer__social-facebook">
+                        <i class="fab fa-facebook-f"></i></a>
+                    <a href="https://facebook.com" class="footer__social-twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://facebook.com" class="footer__social-insta">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://facebook.com" class="footer__social-youtube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://facebook.com" class="footer__social-pinterest">
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
+                </div>
+                <p class="footer__privacy">
+                    &copy; 2010 - 2020
+                    <a href="#" class="footer__privacy-link">Privacy — Terms</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="script/index.js"></script>
+
+</body>
+
+</html>
